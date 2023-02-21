@@ -17,3 +17,4 @@ class CategorySerializer(serializers.ModelSerializer):
             raise serializers.ValidationError(errors)
 
         return data
+#new
